@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/no_data_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layoutAnimation="@anim/layout_fade_in"
+    android:paddingTop="50dp"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/no_data_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:textColor="#85978D"
+        android:textSize="16sp"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/no_data_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <!-- 此处也可用ImageView替换 -->
+
+    <Button
+        android:id="@+id/other_operate_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@null"
+        android:text="无数据后的操作" />
+
+</LinearLayout>
